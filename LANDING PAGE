@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Equilibra — Planilha e App de Controle de Gastos</title>
+  <meta name="description" content="Equilibra: planilha e app para organizar seus gastos, visualizar seu dinheiro e ter mais clareza financeira." />
+
+  <!-- Open Graph (preview bonito no WhatsApp/Instagram) -->
+  <meta property="og:title" content="Equilibra — Planilha e App de Controle de Gastos" />
+  <meta property="og:description" content="Organize seus gastos com uma planilha inteligente e um app prático. Peça um orçamento pelo WhatsApp." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">≋</div>
+        <div>
+          <div class="brand__name">Equilibra</div>
+          <div class="brand__tag">Planilha + App</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#planos">Orçamento</a>
+      </nav>
+
+      <a class="btn btn--ghost" href="#planos">Falar agora</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="pill">🔥 Controle financeiro sem complicação</div>
+          <h1>Organize seus gastos com a <span class="grad">planilha</span> e o <span class="grad2">app</span> Equilibra.</h1>
+          <p class="lead">
+            Tenha clareza do seu dinheiro, categorias, metas e relatórios — tudo com um visual moderno e fácil de usar.
+          </p>
+
+          <div class="cta">
+            <a class="btn btn--primary" target="_blank" rel="noopener"
+               href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5551992239236%3Ftext%3DOii%252C%2Bgostaria%2Bde%2Bum%2Bor%25C3%25A7amento%2521%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnwzvJ2B_08koPTj0MrSV1kds4Jx7rnLK6u07cZsLgWyesovhL-j7_4nq8bJQ_aem_SPiqrA-4Xlv1FIO6QJcOXA&e=AT6fizaIKuR_b0BPAZO5HHhjhmrel0ojH9f6D6_5LQCyt7IVjuJO8lf8UQ8a-a7hv4bd5HeEF93M41ueoCRC2p2rxUyvCS2dm57uL4fW1A">
+              Pedir orçamento no WhatsApp
+            </a>
+            <a class="btn btn--secondary" href="#como-funciona">Ver como funciona</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust__item">
+              <div class="dot dot--a"></div>
+              <span>Setup rápido</span>
+            </div>
+            <div class="trust__item">
+              <div class="dot dot--b"></div>
+              <span>Visual forte e claro</span>
+            </div>
+            <div class="trust__item">
+              <div class="dot dot--c"></div>
+              <span>Suporte no WhatsApp</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card preview -->
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__top">
+              <div class="chip">Dashboard</div>
+              <div class="chip chip--alt">Metas</div>
+              <div class="chip chip--alt2">Categorias</div>
+            </div>
+
+            <div class="kpis">
+              <div class="kpi">
+                <div class="kpi__label">Entradas</div>
+                <div class="kpi__value">R$ 6.420</div>
+                <div class="kpi__hint">mês atual</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi__label">Saídas</div>
+                <div class="kpi__value">R$ 4.180</div>
+                <div class="kpi__hint">mês atual</div>
+              </div>
+              <div class="kpi kpi--accent">
+                <div class="kpi__label">Saldo</div>
+                <div class="kpi__value">R$ 2.240</div>
+                <div class="kpi__hint">resultado</div>
+              </div>
+            </div>
+
+            <div class="mini">
+              <div class="mini__title">Categorias (exemplo)</div>
+              <div class="bar">
+                <span>Alimentação</span>
+                <div class="bar__track"><div class="bar__fill" style="width:72%"></div></div>
+              </div>
+              <div class="bar">
+                <span>Transporte</span>
+                <div class="bar__track"><div class="bar__fill b2" style="width:45%"></div></div>
+              </div>
+              <div class="bar">
+                <span>Lazer</span>
+                <div class="bar__track"><div class="bar__fill b3" style="width:35%"></div></div>
+              </div>
+            </div>
+
+            <div class="card__bottom">
+              <div class="badge">📊 Planilha</div>
+              <div class="badge">📱 App</div>
+              <div class="badge">⚡ Relatórios</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="section" id="beneficios">
+      <div class="container">
+        <h2>O que o Equilibra te entrega</h2>
+        <p class="sub">Foco em clareza, rotina simples e visual que ajuda a decidir melhor.</p>
+
+        <div class="grid3">
+          <article class="box">
+            <div class="icon i1">✓</div>
+            <h3>Controle real</h3>
+            <p>Entradas, saídas e saldo em um painel claro. Sem bagunça.</p>
+          </article>
+
+          <article class="box">
+            <div class="icon i2">↗</div>
+            <h3>Metas e evolução</h3>
+            <p>Acompanhe progresso, ajuste hábitos e ganhe consistência.</p>
+          </article>
+
+          <article class="box">
+            <div class="icon i3">⚡</div>
+            <h3>Prático no dia a dia</h3>
+            <p>Planilha inteligente + app para registrar rápido e não esquecer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como funciona -->
+    <section class="section section--dark" id="como-funciona">
+      <div class="container">
+        <h2>Como funciona</h2>
+        <p class="sub">3 passos e você já começa a controlar tudo.</p>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step__num">1</div>
+            <div>
+              <h3>Você recebe a planilha/app</h3>
+              <p>Com estrutura pronta e visual forte (cores + indicadores).</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">2</div>
+            <div>
+              <h3>Configura categorias e metas</h3>
+              <p>Deixe o Equilibra do seu jeito (rápido e sem complicação).</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">3</div>
+            <div>
+              <h3>Registra e acompanha</h3>
+              <p>Todo dia um pouco. No fim do mês, você enxerga tudo com clareza.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div>
+            <strong>Quer ver um exemplo e receber valores?</strong>
+            <div class="muted">Clique e fale comigo no WhatsApp.</div>
+          </div>
+          <a class="btn btn--primary" target="_blank" rel="noopener"
+             href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5551992239236%3Ftext%3DOii%252C%2Bgostaria%2Bde%2Bum%2Bor%25C3%25A7amento%2521%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnwzvJ2B_08koPTj0MrSV1kds4Jx7rnLK6u07cZsLgWyesovhL-j7_4nq8bJQ_aem_SPiqrA-4Xlv1FIO6QJcOXA&e=AT6fizaIKuR_b0BPAZO5HHhjhmrel0ojH9f6D6_5LQCyt7IVjuJO8lf8UQ8a-a7hv4bd5HeEF93M41ueoCRC2p2rxUyvCS2dm57uL4fW1A">
+            Pedir orçamento
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Orçamento -->
+    <section class="section" id="planos">
+      <div class="container">
+        <h2>Orçamento</h2>
+        <p class="sub">Me chama no WhatsApp e eu te mando valores e opções (planilha, app ou combo).</p>
+
+        <div class="price">
+          <div class="price__card">
+            <h3>Planilha</h3>
+            <p class="muted">Para organizar e acompanhar seus gastos com dashboard.</p>
+            <ul>
+              <li>Dashboard visual</li>
+              <li>Categorias e metas</li>
+              <li>Relatórios</li>
+            </ul>
+            <a class="btn btn--secondary" target="_blank" rel="noopener"
+               href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5551992239236%3Ftext%3DOii%252C%2Bgostaria%2Bde%2Bum%2Bor%25C3%25A7amento%2521%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnwzvJ2B_08koPTj0MrSV1kds4Jx7rnLK6u07cZsLgWyesovhL-j7_4nq8bJQ_aem_SPiqrA-4Xlv1FIO6QJcOXA&e=AT6fizaIKuR_b0BPAZO5HHhjhmrel0ojH9f6D6_5LQCyt7IVjuJO8lf8UQ8a-a7hv4bd5HeEF93M41ueoCRC2p2rxUyvCS2dm57uL4fW1A">
+              Quero a Planilha
+            </a>
+          </div>
+
+          <div class="price__card price__card--highlight">
+            <div class="tag">Mais procurado</div>
+            <h3>Combo (Planilha + App)</h3>
+            <p class="muted">Experiência completa: registrar rápido + acompanhar com clareza.</p>
+            <ul>
+              <li>Planilha + App</li>
+              <li>Organização + rotina</li>
+              <li>Suporte</li>
+            </ul>
+            <a class="btn btn--primary" target="_blank" rel="noopener"
+               href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5551992239236%3Ftext%3DOii%252C%2Bgostaria%2Bde%2Bum%2Bor%25C3%25A7amento%2521%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnwzvJ2B_08koPTj0MrSV1kds4Jx7rnLK6u07cZsLgWyesovhL-j7_4nq8bJQ_aem_SPiqrA-4Xlv1FIO6QJcOXA&e=AT6fizaIKuR_b0BPAZO5HHhjhmrel0ojH9f6D6_5LQCyt7IVjuJO8lf8UQ8a-a7hv4bd5HeEF93M41ueoCRC2p2rxUyvCS2dm57uL4fW1A">
+              Quero o Combo
+            </a>
+          </div>
+
+          <div class="price__card">
+            <h3>App</h3>
+            <p class="muted">Para registrar gastos com rapidez e praticidade.</p>
+            <ul>
+              <li>Registro rápido</li>
+              <li>Visão por categorias</li>
+              <li>Rotina simples</li>
+            </ul>
+            <a class="btn btn--secondary" target="_blank" rel="noopener"
+               href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5551992239236%3Ftext%3DOii%252C%2Bgostaria%2Bde%2Bum%2Bor%25C3%25A7amento%2521%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnwzvJ2B_08koPTj0MrSV1kds4Jx7rnLK6u07cZsLgWyesovhL-j7_4nq8bJQ_aem_SPiqrA-4Xlv1FIO6QJcOXA&e=AT6fizaIKuR_b0BPAZO5HHhjhmrel0ojH9f6D6_5LQCyt7IVjuJO8lf8UQ8a-a7hv4bd5HeEF93M41ueoCRC2p2rxUyvCS2dm57uL4fW1A">
+              Quero o App
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand__name">Equilibra</div>
+        <div class="muted">Planilha + App de controle de gastos.</div>
+      </div>
+      <div class="footer__links">
+        <a target="_blank" rel="noopener"
+           href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5551992239236%3Ftext%3DOii%252C%2Bgostaria%2Bde%2Bum%2Bor%25C3%25A7amento%2521%26utm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnwzvJ2B_08koPTj0MrSV1kds4Jx7rnLK6u07cZsLgWyesovhL-j7_4nq8bJQ_aem_SPiqrA-4Xlv1FIO6QJcOXA&e=AT6fizaIKuR_b0BPAZO5HHhjhmrel0ojH9f6D6_5LQCyt7IVjuJO8lf8UQ8a-a7hv4bd5HeEF93M41ueoCRC2p2rxUyvCS2dm57uL4fW1A">WhatsApp</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#como-funciona">Como funciona</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
